@@ -21,7 +21,7 @@ libncursesw5-dev
 
 PYTHONS="2.6.8 2.7.2 3.3.0"
 DEFAULT_PYTHON="2.6.8"
-PYTHON_EXTRAS="virtualenv mercurial boto"
+PYTHON_EXTRAS="virtualenv mercurial boto fabric"
 
 is_root() {
     if [[ ${EUID} -ne 0 ]]
