@@ -10,7 +10,6 @@ libxml2-dev
 libxslt1-dev
 libreadline-dev
 libgdbm-dev
-libgdb-dev
 libxml2
 libssl-dev
 tk-dev
@@ -39,6 +38,7 @@ install_deps() {
 install_pythonbrew() {
     echo "Installing pythonbrew"
     curl -kL http://xrl.us/pythonbrewinstall | bash
+    source "$HOME/.pythonbrew/etc/bashrc"
 }
 
 install_pythons() {
